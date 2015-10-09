@@ -1,0 +1,3 @@
+defaultFieldTypes = {}
+
+module.exports = defaultFieldTypes
