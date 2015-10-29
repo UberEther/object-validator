@@ -7,7 +7,7 @@ defaultFieldTypes = require "../lib/defaultFieldTypes"
 defaultFieldTypes.typ = "string"
 
 describe "generateValidator", () ->
-    describe "SValidator Settings", () ->
+    describe "Validator Settings", () ->
         it "should validate empty objects, null, and undefined (when legal)", () ->
             t = generateValidator fields: typ: 1
 
